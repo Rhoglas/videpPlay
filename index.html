@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Video</title>
+  </head>
+  <body>
+    <div class="container">
+      <video
+        poster="./Assets/img/poster/naruto-opening-20.jpg"
+        src="./Assets/Video/Naruto Shippuden  20.mp4"
+        class="video"
+      ></video>
+
+      <div class="controls">
+        <img
+          src="./Assets/img/icons/back.svg"
+          alt="voltar"
+          id="back"
+          class="icons"
+        />
+        <img
+          src="./Assets/img/icons/pass.svg"
+          alt="passar"
+          id="pass"
+          class="icons"
+        />
+        <img
+          src="./Assets/img/icons/add.svg"
+          alt="aumentarV"
+          id="increase"
+          class="icons"
+        />
+        <img
+          src="./Assets/img/icons/minus.svg"
+          alt="diminuirV"
+          id="decrease"
+          class="icons"
+        />
+        <img
+          src="./Assets/img/icons/play.svg"
+          alt="iniciar"
+          id="playV"
+          class="icons"
+        />
+        <img
+          src="./Assets/img/icons/stop.svg"
+          alt="parar"
+          id="stopV"
+          class="icons"
+        />
+      </div>
+    </div>
+    <div class="instructions">
+      <h2><u>Instruções de funções dos botões</u></h2>
+
+      <p>Mouse dentro do vídeo, controles surgem.</p>
+      <p>Mouse fora do vídeo, controles desaparecem.</p>
+      <p>btn1: back, retorna 10s do vídeo.</p>
+      <p>btn2: pass, passa 10s do vídeo.</p>
+      <p>btn3: aumenta a velocidade em 0.1s.</p>
+      <p>btn4: diminui a velocidade em 0.1s.</p>
+      <p>btn5: inicia o vídeo.</p>
+      <p>
+        btn6: um clique pausa o vídeo e dois cliques pausa o vídeo e retorna
+        para o início.
+      </p>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
